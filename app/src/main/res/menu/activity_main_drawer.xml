@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_academics"
+            android:icon="@drawable/academics"
+            android:title="Academics" />
+        <item
+            android:id="@+id/nav_fee"
+            android:icon="@drawable/fee"
+            android:title="Fee Statements" />
+        <item
+            android:id="@+id/nav_accomodation"
+            android:icon="@drawable/acomodation"
+            android:title="Accomodation" />
+        <item
+            android:id="@+id/nav_timetables"
+            android:icon="@drawable/timetable1"
+            android:title="Timetables"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_administration"
+                android:icon="@mipmap/admi"
+                android:title="Administration" />
+            <item
+                android:id="@+id/nav_dean"
+                android:icon="@drawable/deanofstudents"
+                android:title="Dean of Students" />
+            <item
+                android:id="@+id/nav_department"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Departments" />
+        </menu>
+    </item>
+    <item android:title="Social Media">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook"/>
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/tiwitter"
+                android:title="Twitter"/>
+
+        </menu>
+    </item>
+
+</menu>

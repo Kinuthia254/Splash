@@ -1,6 +1,6 @@
 package example.vinek.com.splash;
 
-import android.app.FragmentManager;
+
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,11 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
-import android.widget.ListView;
-import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -47,22 +43,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        String[] units = {"OS_1", "Classical_Mechanics", " Algorithm", "System_Analysis"};
 
-        ListAdapter myAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, units);
-        ListView myListView = (ListView) findViewById(R.id.mylistview);
-        myListView.setAdapter(myAdapter);
-
-        myListView.setOnItemClickListener(
-                new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-                        String unit = String.valueOf(parent.getItemAtPosition(position));
-                        Toast.makeText(MainActivity.this, unit, Toast.LENGTH_SHORT).show();
-                    }
-                }
-        );
     }//end oncreate
 
     @Override
@@ -106,16 +87,17 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_academics) {
-            AcademicsFragement academicsFragement = new AcademicsFragement();
-            android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.content_main, academicsFragement, academicsFragement.getTag()).commit();
+        if (id == R.id.nav_dashboard) {
 
-        } else if (id == R.id.nav_fee) {
+        } else if (id == R.id.financial) {
 
-        } else if (id == R.id.nav_accomodation) {
+        } else if (id == R.id.requisitions) {
 
-        } else if (id == R.id.nav_timetables) {
+        } else if (id == R.id.hostels) {
+
+        } else if (id == R.id.clearance_request) {
+
+        } else if (id == R.id.reset_password) {
 
         } else if (id == R.id.nav_administration) {
 

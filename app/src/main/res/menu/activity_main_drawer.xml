@@ -3,21 +3,31 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_academics"
+            android:id="@+id/nav_dashboard"
             android:icon="@drawable/academics"
-            android:title="Academics" />
+            android:title="Dashboard" />
         <item
-            android:id="@+id/nav_fee"
+            android:id="@+id/financial"
             android:icon="@drawable/fee"
-            android:title="Fee Statements" />
+            android:title="Financial" />
         <item
-            android:id="@+id/nav_accomodation"
+            android:id="@+id/requisitions"
             android:icon="@drawable/acomodation"
-            android:title="Accomodation" />
+            android:title="Requisitions" />
         <item
-            android:id="@+id/nav_timetables"
+            android:id="@+id/hostels"
             android:icon="@drawable/timetable1"
-            android:title="Timetables"
+            android:title="Hostels"
+            />
+        <item
+            android:id="@+id/clearance_request"
+            android:icon="@drawable/timetable1"
+            android:title="Clearance Request"
+            />
+        <item
+            android:id="@+id/reset_password"
+            android:icon="@drawable/timetable1"
+            android:title="Reset Password"
             />
     </group>
 

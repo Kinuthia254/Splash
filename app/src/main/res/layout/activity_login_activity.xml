@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Taita Taveta University"
+            android:text="@string/UniversityName"
             android:textSize="30sp"
             android:textColor="#000000"
             android:layout_gravity="center"
@@ -31,11 +31,11 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp">
             <EditText
-                android:id="@+id/input_email"
+                android:id="@+id/input_RegNo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:hint="Reg. No"/>
+                android:inputType="textNoSuggestions"
+                android:hint="@string/Reg"/>
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -48,8 +48,8 @@
                 android:id="@+id/input_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                android:hint="ID No"
+                android:inputType="textVisiblePassword"
+                android:hint="@string/id"
                 android:textColorHighlight="#000"/>
 
         </android.support.design.widget.TextInputLayout>
@@ -57,7 +57,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="@string/login"
             android:onClick="onClick"
             android:layout_gravity="center"/>
 

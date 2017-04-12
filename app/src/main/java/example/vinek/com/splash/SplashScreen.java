@@ -21,7 +21,7 @@ public class SplashScreen extends Activity
         super.onAttachedToWindow();
         Window window = getWindow();
         window.setFormat(PixelFormat.RGBA_8888);
-    }//end onattached
+    }//end on attached
 
     //called when the first activity is created
     Thread splashThread;
@@ -31,7 +31,7 @@ public class SplashScreen extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen_activity);
         StartAnimations();
-    }//end oncreate
+    }//end on create
 
     private void StartAnimations()
     {

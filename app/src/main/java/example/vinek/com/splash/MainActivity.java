@@ -93,11 +93,11 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.requisitions) {
 
+        } else if (id == R.id.library) {
+
         } else if (id == R.id.hostels) {
 
         } else if (id == R.id.clearance_request) {
-
-        } else if (id == R.id.reset_password) {
 
         } else if (id == R.id.nav_administration) {
 

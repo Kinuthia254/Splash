@@ -11,24 +11,26 @@
             android:icon="@drawable/fee"
             android:title="Financial" />
         <item
+            android:id="@+id/academics"
+            android:icon="@mipmap/splash5"
+            android:title="Academics" />
+        <item
             android:id="@+id/requisitions"
             android:icon="@drawable/acomodation"
             android:title="Requisitions" />
         <item
+            android:id="@+id/library"
+            android:icon="@drawable/acomodation"
+            android:title="Library" />
+        <item
             android:id="@+id/hostels"
             android:icon="@drawable/timetable1"
-            android:title="Hostels"
-            />
+            android:title="Hostels" />
         <item
             android:id="@+id/clearance_request"
-            android:icon="@drawable/timetable1"
-            android:title="Clearance Request"
-            />
-        <item
-            android:id="@+id/reset_password"
-            android:icon="@drawable/timetable1"
-            android:title="Reset Password"
-            />
+            android:icon="@drawable/ic_action_awaited"
+            android:title="Clearance Request" />
+
     </group>
 
     <item android:title="Communicate">
@@ -39,11 +41,11 @@
                 android:title="Administration" />
             <item
                 android:id="@+id/nav_dean"
-                android:icon="@drawable/deanofstudents"
+                android:icon="@drawable/ic_action_name"
                 android:title="Dean of Students" />
             <item
                 android:id="@+id/nav_department"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/test"
                 android:title="Departments" />
         </menu>
     </item>
@@ -52,11 +54,11 @@
             <item
                 android:id="@+id/nav_facebook"
                 android:icon="@drawable/facebook"
-                android:title="Facebook"/>
+                android:title="Facebook" />
             <item
                 android:id="@+id/nav_twitter"
                 android:icon="@drawable/tiwitter"
-                android:title="Twitter"/>
+                android:title="Twitter" />
 
         </menu>
     </item>
